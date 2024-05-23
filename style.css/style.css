@@ -1,0 +1,47 @@
+/* reset global E INPORTAÇÃO DE FONTE */
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family:"Lexend Deca", sans-serif;
+}
+
+/* codigos de cores root */
+
+:root{
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Verydark-cyan: hsl(179, 100%, 13%);
+}
+
+/* stilos no corpo */
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* container */
+body .container{
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .cards{
+    background-color: var(--Bright-orange);
+
+    max-width: 300px;
+    border-radius: 1rem;
+    padding: 20px;
+}
+
+.container .cards h1{
+    text-align: center;
+    
+}
