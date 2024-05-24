@@ -71,6 +71,14 @@ body .container{
     font-size: 1rem;
 }
 
+/* hover */
+
+.container .cards .btn:hover{
+    background-color: transparent;
+    outline: 1px solid #fff;
+    color: #fff;
+}
+
 /* card 2 */
 .container .cards2{
     background-color: var(--azulclaro);
