@@ -93,9 +93,7 @@ body .container{
 /* footer */
 
 footer{
-    background-color: #000;
     padding: 20px;
-    
 }
 
 footer p{
@@ -110,7 +108,6 @@ footer p{
 footer p a{
     text-decoration: none;
     color: var(--amarelo);
-
 }
 
 /* media screem mobile */
